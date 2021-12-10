@@ -16,6 +16,8 @@ $products['computer']=750;
 $products['car']=15000;
 $products['iphone']=1000;
 $products['toaster']=75;
+foreach ($ products as $key=>$value){
+echo "</p> The "$key."costs.".$value."</p>";
 echo "<p> A car costs$".$products[car']</p>;
 ?>
 </body>
