@@ -26,6 +26,11 @@ echo "<p>.$key."</p>"
 }
 }
 echo "<p> A car costs$".$products[car']</p>;
+function tax_calc($amount,$tax){
+$calculate_tax=$amount*$tax;
+$amount=round ($amount+$calculate-tax,2);
+return $amount;
+}
 ?>
 $amount=800;
 $taxRate=0.0825
